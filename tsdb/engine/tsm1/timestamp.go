@@ -38,7 +38,7 @@ import (
 	"math"
 	"time"
 
-	"github.com/jwilder/encoding/simple8b"
+	"github.com/bpradipt/encoding/simple8b"
 )
 
 const (

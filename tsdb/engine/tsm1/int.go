@@ -24,7 +24,7 @@ import (
 	"encoding/binary"
 	"fmt"
 
-	"github.com/jwilder/encoding/simple8b"
+	"github.com/bpradipt/encoding/simple8b"
 )
 
 const (
