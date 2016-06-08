@@ -4,8 +4,8 @@ import (
 	"fmt"
 	"sort"
 
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/models"
+	"github.com/bpradipt/influxdb/influxql"
+	"github.com/bpradipt/influxdb/models"
 )
 
 // StatementExecutor translates InfluxQL queries to Monitor methods.

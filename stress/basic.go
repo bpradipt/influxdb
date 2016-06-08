@@ -11,7 +11,7 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdb/influxdb/client/v2"
+	"github.com/bpradipt/influxdb/client/v2"
 )
 
 // AbstractTag is a struct that abstractly

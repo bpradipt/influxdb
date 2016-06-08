@@ -11,9 +11,9 @@ import (
 	"net/http"
 	"time"
 
-	"github.com/influxdb/influxdb"
-	"github.com/influxdb/influxdb/cluster"
-	"github.com/influxdb/influxdb/models"
+	"github.com/bpradipt/influxdb"
+	"github.com/bpradipt/influxdb/cluster"
+	"github.com/bpradipt/influxdb/models"
 )
 
 // Handler is an http.Handler for the service.

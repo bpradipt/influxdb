@@ -6,8 +6,8 @@ import (
 	"sort"
 	"time"
 
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/models"
+	"github.com/bpradipt/influxdb/influxql"
+	"github.com/bpradipt/influxdb/models"
 )
 
 const (

@@ -9,9 +9,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/influxdb/influxdb"
-	"github.com/influxdb/influxdb/cluster"
-	"github.com/influxdb/influxdb/meta"
+	"github.com/bpradipt/influxdb"
+	"github.com/bpradipt/influxdb/cluster"
+	"github.com/bpradipt/influxdb/meta"
 )
 
 // Statistics for the Subscriber service.

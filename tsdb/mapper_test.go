@@ -12,9 +12,9 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/models"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/bpradipt/influxdb/influxql"
+	"github.com/bpradipt/influxdb/models"
+	"github.com/bpradipt/influxdb/tsdb"
 )
 
 func TestShardMapper_RawMapperTagSetsFields(t *testing.T) {

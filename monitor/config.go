@@ -3,7 +3,7 @@ package monitor
 import (
 	"time"
 
-	"github.com/influxdb/influxdb/toml"
+	"github.com/bpradipt/influxdb/toml"
 )
 
 const (

@@ -5,8 +5,8 @@ import (
 	"net"
 	"time"
 
-	"github.com/influxdb/influxdb/meta"
-	"github.com/influxdb/influxdb/models"
+	"github.com/bpradipt/influxdb/meta"
+	"github.com/bpradipt/influxdb/models"
 	"gopkg.in/fatih/pool.v2"
 )
 

@@ -10,7 +10,7 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/influxdb/influxdb/models"
+	"github.com/bpradipt/influxdb/models"
 )
 
 var (

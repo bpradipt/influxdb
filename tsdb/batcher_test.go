@@ -4,8 +4,8 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdb/influxdb/models"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/bpradipt/influxdb/models"
+	"github.com/bpradipt/influxdb/tsdb"
 )
 
 // TestBatch_Size ensures that a batcher generates a batch when the size threshold is reached.

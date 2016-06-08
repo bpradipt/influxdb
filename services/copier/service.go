@@ -12,9 +12,9 @@ import (
 	"sync"
 
 	"github.com/gogo/protobuf/proto"
-	"github.com/influxdb/influxdb/services/copier/internal"
-	"github.com/influxdb/influxdb/tcp"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/bpradipt/influxdb/services/copier/internal"
+	"github.com/bpradipt/influxdb/tcp"
+	"github.com/bpradipt/influxdb/tsdb"
 )
 
 //go:generate protoc --gogo_out=. internal/internal.proto

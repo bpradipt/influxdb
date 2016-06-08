@@ -14,8 +14,8 @@ import (
 	"time"
 
 	"github.com/boltdb/bolt"
-	"github.com/influxdb/influxdb/models"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/bpradipt/influxdb/models"
+	"github.com/bpradipt/influxdb/tsdb"
 )
 
 // Format is the file format name of this engine.

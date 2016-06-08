@@ -6,7 +6,7 @@ import (
 	"os"
 	"runtime/pprof"
 
-	"github.com/influxdb/influxdb/stress"
+	"github.com/bpradipt/influxdb/stress"
 )
 
 var (

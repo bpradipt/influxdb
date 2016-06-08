@@ -21,9 +21,9 @@ import (
 
 	"github.com/gogo/protobuf/proto"
 	"github.com/hashicorp/raft"
-	"github.com/influxdb/influxdb"
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/meta/internal"
+	"github.com/bpradipt/influxdb"
+	"github.com/bpradipt/influxdb/influxql"
+	"github.com/bpradipt/influxdb/meta/internal"
 	"golang.org/x/crypto/bcrypt"
 )
 
@@ -187,7 +187,7 @@ func (s *Store) IDPath() string { return filepath.Join(s.path, "id") }
 // Open opens and initializes the raft store.
 func (s *Store) Open() error {
 	// Verify that no more than 3 peers.
-	// https://github.com/influxdb/influxdb/issues/2750
+	// https://github.com/bpradipt/influxdb/issues/2750
 	if len(s.peers) > MaxRaftNodes {
 		return ErrTooManyPeers
 	}

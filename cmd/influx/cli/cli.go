@@ -18,9 +18,9 @@ import (
 	"syscall"
 	"text/tabwriter"
 
-	"github.com/influxdb/influxdb/client"
-	"github.com/influxdb/influxdb/cluster"
-	"github.com/influxdb/influxdb/importer/v8"
+	"github.com/bpradipt/influxdb/client"
+	"github.com/bpradipt/influxdb/cluster"
+	"github.com/bpradipt/influxdb/importer/v8"
 	"github.com/peterh/liner"
 )
 

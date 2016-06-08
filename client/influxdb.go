@@ -13,7 +13,7 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdb/influxdb/models"
+	"github.com/bpradipt/influxdb/models"
 )
 
 const (

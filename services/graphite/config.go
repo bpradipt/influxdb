@@ -5,8 +5,8 @@ import (
 	"strings"
 	"time"
 
-	"github.com/influxdb/influxdb/models"
-	"github.com/influxdb/influxdb/toml"
+	"github.com/bpradipt/influxdb/models"
+	"github.com/bpradipt/influxdb/toml"
 )
 
 const (

@@ -11,8 +11,8 @@ import (
 	"sync"
 	"time"
 
-	"github.com/influxdb/influxdb"
-	"github.com/influxdb/influxdb/models"
+	"github.com/bpradipt/influxdb"
+	"github.com/bpradipt/influxdb/models"
 )
 
 // NodeProcessor encapsulates a queue of hinted-handoff data for a node, and the

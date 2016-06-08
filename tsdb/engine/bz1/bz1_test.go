@@ -12,10 +12,10 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/models"
-	"github.com/influxdb/influxdb/tsdb"
-	"github.com/influxdb/influxdb/tsdb/engine/bz1"
+	"github.com/bpradipt/influxdb/influxql"
+	"github.com/bpradipt/influxdb/models"
+	"github.com/bpradipt/influxdb/tsdb"
+	"github.com/bpradipt/influxdb/tsdb/engine/bz1"
 )
 
 // Ensure the engine can write series metadata and reload it.

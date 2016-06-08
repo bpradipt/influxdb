@@ -8,9 +8,9 @@ import (
 	"sort"
 	"time"
 
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/meta"
-	"github.com/influxdb/influxdb/models"
+	"github.com/bpradipt/influxdb/influxql"
+	"github.com/bpradipt/influxdb/meta"
+	"github.com/bpradipt/influxdb/models"
 )
 
 // QueryExecutor executes every statement in an influxdb Query. It is responsible for

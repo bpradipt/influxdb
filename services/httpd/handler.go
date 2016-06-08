@@ -18,14 +18,14 @@ import (
 	"time"
 
 	"github.com/bmizerany/pat"
-	"github.com/influxdb/influxdb"
-	"github.com/influxdb/influxdb/client"
-	"github.com/influxdb/influxdb/cluster"
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/meta"
-	"github.com/influxdb/influxdb/models"
-	"github.com/influxdb/influxdb/services/continuous_querier"
-	"github.com/influxdb/influxdb/uuid"
+	"github.com/bpradipt/influxdb"
+	"github.com/bpradipt/influxdb/client"
+	"github.com/bpradipt/influxdb/cluster"
+	"github.com/bpradipt/influxdb/influxql"
+	"github.com/bpradipt/influxdb/meta"
+	"github.com/bpradipt/influxdb/models"
+	"github.com/bpradipt/influxdb/services/continuous_querier"
+	"github.com/bpradipt/influxdb/uuid"
 )
 
 const (

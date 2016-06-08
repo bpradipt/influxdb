@@ -13,13 +13,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/influxdb/influxdb"
-	"github.com/influxdb/influxdb/client"
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/meta"
-	"github.com/influxdb/influxdb/models"
-	"github.com/influxdb/influxdb/services/httpd"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/bpradipt/influxdb"
+	"github.com/bpradipt/influxdb/client"
+	"github.com/bpradipt/influxdb/influxql"
+	"github.com/bpradipt/influxdb/meta"
+	"github.com/bpradipt/influxdb/models"
+	"github.com/bpradipt/influxdb/services/httpd"
+	"github.com/bpradipt/influxdb/tsdb"
 )
 
 func TestBatchWrite_UnmarshalEpoch(t *testing.T) {

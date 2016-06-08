@@ -16,10 +16,10 @@ import (
 
 	"github.com/boltdb/bolt"
 	"github.com/golang/snappy"
-	"github.com/influxdb/influxdb"
-	"github.com/influxdb/influxdb/models"
-	"github.com/influxdb/influxdb/tsdb"
-	"github.com/influxdb/influxdb/tsdb/engine/wal"
+	"github.com/bpradipt/influxdb"
+	"github.com/bpradipt/influxdb/models"
+	"github.com/bpradipt/influxdb/tsdb"
+	"github.com/bpradipt/influxdb/tsdb/engine/wal"
 )
 
 var (

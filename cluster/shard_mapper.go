@@ -7,9 +7,9 @@ import (
 	"net"
 	"time"
 
-	"github.com/influxdb/influxdb/influxql"
-	"github.com/influxdb/influxdb/meta"
-	"github.com/influxdb/influxdb/tsdb"
+	"github.com/bpradipt/influxdb/influxql"
+	"github.com/bpradipt/influxdb/meta"
+	"github.com/bpradipt/influxdb/tsdb"
 )
 
 // ShardMapper is responsible for providing mappers for requested shards. It is

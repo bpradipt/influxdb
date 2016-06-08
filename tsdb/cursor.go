@@ -6,7 +6,7 @@ import (
 	"sort"
 	"strings"
 
-	"github.com/influxdb/influxdb/influxql"
+	"github.com/bpradipt/influxdb/influxql"
 )
 
 // EOF represents a "not found" key returned by a Cursor.
