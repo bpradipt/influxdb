@@ -24,6 +24,17 @@ We recommend installing InfluxDB using one of the [pre-built packages](https://i
 * `systemctl start influxdb` if you have installed InfluxDB using an official Debian or RPM package, and are running a distro with `systemd`. For example, Ubuntu 15 or later.
 * `$GOPATH/bin/influxd` if you have built InfluxDB from source.
 
+## Building from Source 
+* Install fpm as a pre-requisite to create binary packages. On Ubuntu you can simply run 'gem install fpm' to install fpm
+* Build instructions
+<pre>
+mkdir -p $GOPATH/src/github.com/influxdata/influxdb
+git clone https://github.com/bpradipt/influxdb.git $GOPATH/src/github.com/influxdata/influxdb
+cd $GOPATH/src/github.com/influxdata/influxdb
+git checkout -b ppc64le origin/ppc64le
+./build.py --package
+</pre>
+
 ## Getting Started
 
 ### Create your first database
