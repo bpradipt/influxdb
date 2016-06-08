@@ -30,6 +30,19 @@ the recommended way to get it running. However, if you want to contribute to the
 For those adventurous enough, you can
 [follow along on our docs](http://github.com/influxdb/influxdb/blob/master/CONTRIBUTING.md).
 
+
+### Building from Source 
+
+* Install fpm as a pre-requisite to create binary packages. On Ubuntu you can simply run 'gem install fpm' to install fpm
+*  Build instructions
+<pre>
+mkdir -p $GOPATH/src/github.com/influxdata/influxdb
+git clone https://github.com/bpradipt/influxdb.git $GOPATH/src/github.com/influxdata/influxdb
+cd $GOPATH/src/github.com/influxdata/influxdb
+git checkout -b ppc64le ppc64le
+./build.py --package
+</pre>
+
 ### Starting InfluxDB
 * `service influxdb start` if you have installed InfluxDB using an official Debian or RPM package.
 * `systemctl start influxdb` if you have installed InfluxDB using an official Debian or RPM package, and are running a distro with `systemd`. For example, Ubuntu 15 or later.
