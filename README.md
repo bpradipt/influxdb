@@ -36,11 +36,13 @@ For those adventurous enough, you can
 * Install fpm as a pre-requisite to create binary packages. On Ubuntu you can simply run 'gem install fpm' to install fpm
 *  Build instructions
 <pre>
-mkdir -p $GOPATH/src/github.com/influxdata/influxdb
-git clone https://github.com/bpradipt/influxdb.git $GOPATH/src/github.com/influxdata/influxdb
-cd $GOPATH/src/github.com/influxdata/influxdb
-git checkout -b ppc64le ppc64le
-./build.py --package
+export GOPATH=~/gopath
+export PATH=$PATH:$GOPATH/bin
+mkdir -p $GOPATH/src/github.com/bpradipt
+cd $GOPATH/src/github.com/bpradipt
+git clone https://github.com/bpradipt/influxdb.git -b ppc64le-0.9.6.1
+cd influxdb
+./build.py --version=0.9.6.1 --package --arch=ppc64el
 </pre>
 
 ### Starting InfluxDB
